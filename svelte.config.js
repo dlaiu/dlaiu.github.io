@@ -15,7 +15,7 @@ const config = {
 		paths: {
 			// base: process.env.NODE_ENV === 'production' ? '/dlaiu.github.io' : '',
 			base: dev ? '' : process.env.BASE_PATH,
-			relative: false
+			// relative: false
 		}
 	},
 	preprocess: vitePreprocess(),
