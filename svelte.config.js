@@ -13,6 +13,7 @@ const config = {
 		adapter: adapter(),
 		paths: {
 			base: process.env.NODE_ENV === 'production' ? '/dlaiu.github.io' : '',
+			relative: false
 		}
 	},
 	preprocess: vitePreprocess(),
