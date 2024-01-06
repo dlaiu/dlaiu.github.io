@@ -2,6 +2,7 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
+const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,7 +13,8 @@ const config = {
 		appDir: 'app',
 		adapter: adapter(),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/dlaiu.github.io' : '',
+			// base: process.env.NODE_ENV === 'production' ? '/dlaiu.github.io' : '',
+			base: dev ? '' : process.env.BASE_PATH,
 			relative: false
 		}
 	},
