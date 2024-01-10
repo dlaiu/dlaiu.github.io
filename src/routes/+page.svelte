@@ -66,7 +66,7 @@
     
         <h2 class="text-3xl font-semibold pt-6 pb-4 mx-24"> ~ Articles</h2>
     
-        <div class="articles grid grid-cols-4 gap-5 mx-24">
+        <div class="articles flex flex-nowrap gap-5 mx-24 overflow-x-scroll">
             <Card title="3 first time S'pore Olympians on why Tokyo Games might also be their last" img_path="olympians-cover.png" summary="Singapore's Olympians, unfiltered." link="https://mothership.sg/2021/08/singapore-first-time-olympians-retiring/"/>
             <Card title="Cancelling & cancel culture: Are they relevant to us in S’pore & why should we care?" img_path="cancel-culture-explained-2.png" summary="Cancelling and cancel culture have been hot topics of conversation recently. We look into their history, criticisms, and why understanding them concerns us." link="https://mothership.sg/2020/08/cancel-culture-explainer/" />
             <Card title="Minimum wage vs Progressive Wage Model: What's the difference?" img_path="minwage-cover.png" summary="Amidst all the debate online, we look at the key differences between the Progressive Wage Model and the minimum wage." link="https://mothership.sg/2020/07/minimum-wage-progressive-wage-model-differences/"/>
