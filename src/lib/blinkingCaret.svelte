@@ -13,5 +13,5 @@
     }
 </style>
 
-<span class="bg-black w-1 h-32 {blink ? 'animate-blink' : ''}"></span>
+<span class="bg-black w-1 h-auto md:h-24 {blink ? 'animate-blink' : ''}"></span>
 
