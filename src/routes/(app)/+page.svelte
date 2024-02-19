@@ -1,6 +1,6 @@
 <script>
-    import Card from "../lib/card.svelte";
-    import Caret from "../lib/blinkingCaret.svelte";
+    import Card from "../../lib/Card.svelte";
+    import Caret from "../../lib/blinkingCaret.svelte";
 </script>
 
 <div class="snap-y snap-mandatory">
@@ -59,7 +59,10 @@
         <h2 class="text-3xl my-4 md:my-0 md:mb-4 mx-10 md:mx-24"> ~ Data Stories</h2>
     
         <div class="data-stories flex flex-col md:flex-row md:flex-nowrap gap-5 mx-16 md:mx-24 overflow-x-scroll">
+            <Card width="1/4" title="When was the best SNL era, objectively" img_path="snl-cast-thumb.png" summary="A look at the numbers." link="https://dlaiu.github.io/snl-dream-team" />
+
             <Card width="1/4" title="Why do all malls in Singapore feel the same?" img_path="mall-thumb.png" summary="A data exploration into the 'generic-ness' of Singapore malls" link="https://dlaiu.github.io/generic-malls-singapore/" />
+
             <Card width="1/4" title="Here's how much your neighbours are selling their flat for" img_path="highest-hdb-price.png" summary="An interactive summary of where some of the most expensive HDBs are in Singapore." link="https://dlaiu.github.io/latest-highest-hdb-resale-price/" />
         </div>
         
