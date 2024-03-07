@@ -1,0 +1,236 @@
+<script>
+    // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    // <link rel="preconnect" href="https://fonts.googleapis.com">
+    // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    // <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</script>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Bored of the malls in Singapore? Try going downtown</h1>
+            <p class="subhead">Bet you $5 you haven't heard of "Nick Vina Artisan Bakery".</p>
+        </div>
+        <div class="byline">
+            <p>By <a href="https://dlaiu.github.io">Darryl Laiu</a></p>
+        </div>
+    
+        <p>Much has been written about the "American Shopping Mall", some even comparing it to a temple for capitalism in America.</p>
+    
+        <p>Similar things could be said about the role of the shopping mall in Singapore.</p>
+    
+        <p>A lot of Singapore life and core experiences centre around the Singapore mall. From a young age, many kids have to pass through a mall before they head home from school, effectively making it a de facto hangout spot.</p>
+    
+        <!-- <img src="imgs/junction-8-capitaland.jpg" alt="generic photo of Junction 8, a mall in Singapore." style="display: block; margin: 0 auto; padding-bottom: 10px; max-width: 100%; max-height: 400px; align-self: center;"> -->
+    
+        <p>As adults, we don't really grow out of this. In fact, the need for malls in Singapore expands as much of our life — whether they be hobbies or necessities — can be found in the air-conditioned Singaporean shopping mall.</p>
+    
+        <p>But over the past few years, something has become more and more apparent: many malls in Singapore just <i>feel</i> the same.</p>
+    
+        <!-- <img src="imgs/mall-meme.png" alt="a meme of Pam from The Office holding up two photos of two malls in Singapore, with the bottom frame saying 'They're the same picture'" style="display: block; margin: 0 auto; padding-bottom: 10px; max-width: 100%; max-height: 400px; align-self: center;"> -->
+    
+        <p>About 8 months ago, my ex-colleague and I set out to find out why.</p>
+    
+        <p>You can see what we found out <a href="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a">here:</a></p>
+    
+        <div class="video-container" style="display: block; margin: 0 auto; padding-bottom: 10px; align-self: center;">
+            <iframe width="650" height="382" src="https://www.youtube.com/embed/Sk0CPkw3gLE?si=mBxlKAw0lt9hi9_a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    
+        <p>But I knew even then, we were just scratching the surface. For the video, my colleague manually compiled the list of shops in 44 malls.</p>
+    
+        <p>I've always wanted to revisit the project to expand it.</p>
+    
+        <p>So now, newly armed with coding and data analysis skills (and prompt of "Something you miss from home" with a deadline of two weeks), I set out to dive even further down the rabbit hole.</p>
+    
+        <h2>Here's what I found:</h2>
+    
+        <iframe title="If you want to find more unique things, go downtown" aria-label="Map" id="datawrapper-chart-Yu9vb" src="https://datawrapper.dwcdn.net/Yu9vb/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="775" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+    
+        <p>This was surprising! It contradicts with the glitzy image of downtown Singapore we a familiar with now.</p>
+    
+        <!-- insert image of orchard road now -->
+    
+        <p>But historically, it might make sense. One speculation could be that Singapore developed outwards from the city center. More of the malls in central Singapore might simply have been built earlier.</p>
+    
+        <p>But why haven't these malls been renovated yet?</p>
+    
+        <p>This is something I intend to explore further in the future.</p>
+    
+        <p>Here are some other questions that came up from the dataset: <b>Why do we have so many LACs in Singapore??</b></p>
+        
+        <table class="dataframe">
+            <thead>
+            <tr style="text-align: right;">
+                <th></th>
+                <th>Frequency</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th>WATSONS</th>
+                <td>47</td>
+            </tr>
+            <tr>
+                <th>GUARDIAN</th>
+                <td>44</td>
+            </tr>
+            <tr>
+                <th>STARBUCKS</th>
+                <td>37</td>
+            </tr>
+            <tr>
+                <th>YA KUN KAYA TOAST</th>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>7-ELEVEN</th>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>LAC</th>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>LIHO TEA</th>
+                <td>34</td>
+            </tr>
+            <tr>
+                <th>SUBWAY</th>
+                <td>32</td>
+            </tr>
+            <tr>
+                <th>OLD CHANG KEE</th>
+                <td>32</td>
+            </tr>
+            <tr>
+                <th>CHALLENGER</th>
+                <td>32</td>
+            </tr>
+            </tbody>
+        </table>
+    
+        <p style="padding-top: 8px;">For context, LAC is a brand that sells supplements. Why has LAC been proliferating around Singapore? Are that many Singaporeans buying supplements?</p>
+    
+        <p>To end off, here are the 10 most generic, and 10 most unique malls in Singapore (from the dataset).</p>
+    
+        <iframe title="These are the 10 most generic malls in Singapore, allegedly" aria-label="Bar Chart" id="datawrapper-chart-3GP7W" src="https://datawrapper.dwcdn.net/3GP7W/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="352" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+        
+        <iframe title="These are the 10 most unique malls in Singapore, allegedly" aria-label="Bar Chart" id="datawrapper-chart-GmBzm" src="https://datawrapper.dwcdn.net/GmBzm/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="301" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+        </script>
+    
+        <p>I hope to eventually expand the dataset to all the malls in Singapore — at least according to <a href="https://en.wikipedia.org/wiki/List_of_shopping_malls_in_Singapore">this</a> Wikipedia page.</p>
+    
+        You can track my progress here.
+    
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <div class="content">
+            <p>For this story, I collated the shop listings from 70 malls in Singapore. You can check out my dataset and my code <a href="https://github.com/dlaiu/generic-malls-singapore">here</a> Check out my other work <a href="https://dlaiu.github.io">here</a>.
+        </div>
+    </div>
+</footer>
+
+
+
+<style>
+    .footer {
+        background: #f4f4f4;
+        text-align: center;
+        font-size: 0.8em;
+        margin-top: 4em;
+        padding: 4em 0;
+    }
+
+    body {
+        margin: 0;
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-rendering: optimizeLegibility;
+    }
+
+    .content {
+        max-width: 850px;
+        margin: auto;
+    }
+
+    .header {
+        /* padding: 3em 0 1em 0; */
+    }
+
+    a {
+        color: #f05349;
+    }
+
+    h1 {
+        font-family: 'Lora', Georgia, serif;
+        font-weight: bold;
+        font-size: 2.5em;
+        line-height: 1.1;
+    }
+
+    .subhead {
+        font-family: 'Lora', Georgia, serif, italic;
+    }
+
+    p {
+        line-height: 1.6;
+        margin: 0;
+        padding-bottom: 1.2em;
+        text-align: justify;
+            text-justify: inter-word;
+    }
+
+    iframe {
+        padding-bottom: 1.2em;
+    }
+
+    /* code {
+        font-family: 'Courier New', monospace;
+        background: #fff880;
+    } */
+
+    /* margin on mobile */
+    @media (max-width: 640px) {
+        body {
+            font-size: 18px;
+        }
+        .content {
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+
+        .dataframe {
+            display: block;
+            overflow-x: auto; /* Make table scrollable horizontally */
+        }
+    }
+
+    .dataframe {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .dataframe th, .dataframe td {
+        padding: 8px; /* Add more padding for readability */
+        text-align: left; /* Align text to the left for a modern look */
+    }
+
+    .dataframe thead th {
+        background-color: #f2f2f2; /* Light grey header background */
+        color: #333; /* Dark text for contrast */
+    }
+
+    .dataframe tbody tr:nth-child(odd) {
+        background-color: #f9f9f9; /* Zebra striping for rows */
+    }
+
+    .dataframe tbody tr:hover {
+        background-color: #eaeaea; /* Highlight row on hover */
+    }
+</style>
