@@ -54,7 +54,7 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-metacritic_yearly_svg-Artboard_1" class="g-artboard" style="max-width: 650px;max-height: 565px" data-aspect-ratio="1.15" data-min-width="0">
 <div style="padding: 0 0 86.9231% 0;"></div>
-		<img id="g-metacritic_yearly_svg-Artboard_1-img" class="g-metacritic_yearly_svg-Artboard_1-img g-aiImg" alt="" src="/src/ai2html/metacritic_yearly_svg-Artboard_1.png"/>
+		<img id="g-metacritic_yearly_svg-Artboard_1-img" class="g-metacritic_yearly_svg-Artboard_1-img g-aiImg" alt="" src="/ai2html/metacritic_yearly_svg-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:12.573%;margin-top:-9px;left:10.8485%;width:35px;">
 			<p class="g-pstyle0">90</p>
 		</div>

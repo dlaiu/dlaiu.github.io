@@ -54,7 +54,7 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-ign_histogram_svg-Artboard_1" class="g-artboard" style="max-width: 650px;max-height: 650px" data-aspect-ratio="1" data-min-width="0">
 <div style="padding: 0 0 100% 0;"></div>
-		<img id="g-ign_histogram_svg-Artboard_1-img" class="g-ign_histogram_svg-Artboard_1-img g-aiImg" alt="" src="/src/ai2html/ign_histogram_svg-Artboard_1.png"/>
+		<img id="g-ign_histogram_svg-Artboard_1-img" class="g-ign_histogram_svg-Artboard_1-img g-aiImg" alt="" src="/ai2html/ign_histogram_svg-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:3.9749%;margin-top:-10.8px;left:2.2308%;width:57px;">
 			<p class="g-pstyle0">4000</p>
 		</div>

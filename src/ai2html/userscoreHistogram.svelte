@@ -54,7 +54,7 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-user_score_histogram_svg-Artboard_1" class="g-artboard" style="max-width: 650px;max-height: 650px" data-aspect-ratio="1" data-min-width="0">
 <div style="padding: 0 0 100% 0;"></div>
-		<img id="g-user_score_histogram_svg-Artboard_1-img" class="g-user_score_histogram_svg-Artboard_1-img g-aiImg" alt="" src="/src/ai2html/user_score_histogram_svg-Artboard_1.png"/>
+		<img id="g-user_score_histogram_svg-Artboard_1-img" class="g-user_score_histogram_svg-Artboard_1-img g-aiImg" alt="" src="/ai2html/user_score_histogram_svg-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:8.8241%;margin-top:-12.4px;left:1.9993%;width:56px;">
 			<p class="g-pstyle0">6000</p>
 		</div>

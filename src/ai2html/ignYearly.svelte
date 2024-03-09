@@ -54,7 +54,7 @@
 	<!-- Artboard: Artboard_1 -->
 	<div id="g-ign_yearly_svg-Artboard_1" class="g-artboard" style="max-width: 650px;max-height: 533px" data-aspect-ratio="1.22" data-min-width="0">
 <div style="padding: 0 0 82% 0;"></div>
-		<img id="g-ign_yearly_svg-Artboard_1-img" class="g-ign_yearly_svg-Artboard_1-img g-aiImg" alt="" src="/src/ai2html/ign_yearly_svg-Artboard_1.png"/>
+		<img id="g-ign_yearly_svg-Artboard_1-img" class="g-ign_yearly_svg-Artboard_1-img g-aiImg" alt="" src="/ai2html/ign_yearly_svg-Artboard_1.png"/>
 		<div id="g-ai0-1" class="g-Layer_1 g-aiAbs g-aiPointText" style="top:6.9489%;margin-top:-9px;left:8.6221%;width:39px;">
 			<p class="g-pstyle0">8.0</p>
 		</div>

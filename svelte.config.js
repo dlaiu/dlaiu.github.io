@@ -11,7 +11,9 @@ const config = {
 		// If your environment is not supported or you settled on a specific environment, switch out the adapter.
 		// See https://kit.svelte.dev/docs/adapters for more information about adapters.
 		appDir: 'app',
-		adapter: adapter(),
+		adapter: adapter({
+			fallback: '404.html'
+		}),
 		paths: {
 			// base: process.env.NODE_ENV === 'production' ? '/dlaiu.github.io' : '',
 			base: dev ? '' : process.env.BASE_PATH,

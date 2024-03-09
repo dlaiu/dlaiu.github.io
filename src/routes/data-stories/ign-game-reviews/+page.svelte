@@ -159,6 +159,14 @@
             font-family: pixelify sans;
             text-shadow: 2px 2px 4px #000000;
         }
+
+        .banner img {
+            max-width: 100%;
+            margin: 0;
+            padding: 0;
+            /* opacity: 0.8; */
+            /* background-image: (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+        }
         
 
     }
@@ -170,22 +178,6 @@
         /* opacity: 0.8; */
         /* background-image: (rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
     }
-
-    /* @media (max-width: 1008px) {
-        .banner h1 {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            font-size: 3em;
-            text-align: center;
-            font-family: 'Lora', Georgia, serif;
-            font-weight: bold;
-            font-family: pixelify sans;
-            text-shadow: 2px 2px 4px #000000;
-        }
-    } */
 
     img {
         max-width: 100%;
