@@ -172,7 +172,7 @@
     }
 
     .banner img {
-        max-width: 100vw;
+        max-width: 100%;
         margin: 0;
         padding: 0;
         /* opacity: 0.8; */
@@ -300,6 +300,7 @@
 
         <!-- Insert ign poll -->
         <img src="/IGN-poll.png" alt="A poll done by IGN about what people consider an 'average' score. 35.6% responded 7, 26.2% responded 6, and 33.4% responded 5.">
+        <p style="font-size:x-small">Source: Poll on IGN's website</p>
 
         <p>But what <em>actually</em> is the purpose of a review? Does the score even matter to users?</p>
 
