@@ -27,6 +27,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"layercake": "^8.0.2"
+		"layercake": "^8.0.2",
+		"scrolly-video": "^0.0.19"
 	}
 }

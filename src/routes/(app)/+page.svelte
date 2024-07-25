@@ -60,7 +60,7 @@
     
         <div class="data-stories flex flex-col md:flex-row md:flex-nowrap gap-5 mx-16 md:mx-24 overflow-x-scroll">
 
-            <Card width="1/4" title="What do we know about bigfoot?" img_path="bigfoot-banner.webp" summary="From more than 4,000 reports." link="https://dlaiu.github.io/big-foot/" />
+            <Card width="1/4" title="What do we know about bigfoot?" img_path="bigfoot-banner.webp" summary="From more than 4,000 reports." link="https://dlaiu.github.io/bigfoot/" />
 
             <Card width="1/4" title="The value of a game review" img_path="banner-photo.png" summary="A closer look at IGN's 7s." link="data-stories/ign-game-reviews" />
 
