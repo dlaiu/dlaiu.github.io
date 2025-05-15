@@ -54,8 +54,7 @@
           
     
     </section>
-    
-    
+
     <section id="projects" class="container mx-auto flex flex-col min-h-screen snap-always snap-center">
         <h1 class="text-5xl font-semibold pt-6 mx-8 md:pb-8 md:text-7xl"> >Projects</h1>
 
@@ -66,7 +65,7 @@
                     <a href="https://dlaiu.github.io/tiktok-accent/" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">analyse the "influencer accent"</a>, 
                     <a href="http://localhost:5173/data-stories/ign-game-reviews" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">scraped 13,000 reviews from IGN</a> to find out if they really give an overwhelming number of 7s, and 
                     <a href="https://github.com/dlaiu/bigfoot" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">manually read and categorised</a> 4,000 reports of Bigfoot sightings to find out what he looks like.
-                    In a previous and current life as a video and multimedia journalist, I make explainers on topics like 
+                    In a previous and current life as a video and multimedia journalist, I make visual first video explainers on topics like 
                     <a href="https://www.bbc.com/reel/video/p0k4y1h6/who-should-pick-up-the-bill-for-climate-damage-" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">climate finance</a>, 
                     <a href="https://www.bbc.com/reel/video/p0jyrzsg/the-history-of-swing-states-in-the-us" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">the history of swing states in the US </a>, 
                     and <a href="https://www.youtube.com/watch?v=zKVdTcY9Yxw" target="_blank" class="underline hover:bg-orange-400 cursor-pointer transition duration-300">why TikTok is so addictive.</a>
@@ -81,7 +80,7 @@
 
             <Card title="Why do TikTokers talk differently?" img_path="tiktok-thumb.png" summary="I scraped and analysed more than 300 videos from TikTok to find the pattern." link="https://dlaiu.github.io/tiktok-accent/" tools={['TikTok Scraping', 'Audio analysis (Praat)', 'Svelte', 'Scrollytelling', 'D3.js', 'Huggingface', 'Pandas']}/>
 
-            <Card width="1/4" title="What do we know about bigfoot?" img_path="bigfoot-banner.webp" summary="I went through more than 4,000 reports of bigfoot sightings to learn more." link="https://dlaiu.github.io/bigfoot/" tools={['scrollytelling', 'Datawrapper', 'Qualitative Analysis']} />
+            <Card width="1/4" title="What does Bigfoot look like?" img_path="bigfoot-banner.webp" summary="I went through more than 4,000 reports of bigfoot sightings to learn more." link="https://dlaiu.github.io/bigfoot/" tools={['scrollytelling', 'Datawrapper', 'Qualitative Analysis']} />
 
             <Card width="1/4" title="The value of a game review" img_path="banner-photo.png" summary="IGN is famous for giving 7s in their reviews. But is it actually true? I scraped about 13,000 of their reviews to find out." link="data-stories/ign-game-reviews" tools={['BeautifulSoup', 'Pandas', 'ggplot', 'Secret APIs', 'ai2html', 'Illustrator']}/>
 
@@ -136,9 +135,12 @@ But what is even considered fair? " link="https://www.bbc.com/reel/video/p0k4y1h
         </div>
     
     </section>
+    
 </div>
 
 
+
+
 <style>
-    
+
 </style>
