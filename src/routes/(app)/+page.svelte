@@ -1,6 +1,8 @@
 <script>
     import Card from "../../lib/Card.svelte";
     import Caret from "../../lib/blinkingCaret.svelte";
+
+    export let data;
 </script>
 
 <div class="snap-y snap-mandatory">
@@ -77,6 +79,22 @@
         <h2 class="text-3xl my-4 md:my-0 md:mb-4 mx-10 md:mx-12"> ~ Data Stories</h2>
     
         <div class="data-stories flex flex-col md:flex-row md:flex-wrap gap-5 mx-10 md:mx-0 md:pl-20">
+
+            <Card title="Spotify Wrapped" img_path="spotify-wrapped-2026.png" summary="I scraped Spotify's Wrapped data for 2022 and 2023 to find out how much it has changed and what it says about the music industry." link="https://www.sfchronicle.com/projects/2025/spotify-wrapped-san-francisco/" tools={['Hearst', 'React', 'd3.js', 'Illustrator', 'Figma']}>
+                <div slot="summary" class="text-gray-700 text-sm mb-2">I presented the city's top tracks from Spotify in an interactive presentation. This story was also published in the <a href="https://www.houstonchronicle.com/projects/2025/spotify-wrapped-houston/" target="_blank" class="underline hover:bg-orange-400">Houston Chronicle</a>, <a href="https://www.expressnews.com/projects/2025/spotify-wrapped-san-antonio/" target="_blank" class="underline hover:bg-orange-400">San Antonio Express</a>, <a href="https://www.statesman.com/projects/2025/austin-spotify-wrapped-2025-artists-songs/" target="_blank" class="underline hover:bg-orange-400">Austin American-Statesman</a>, and <a href="https://www.timesunion.com/projects/2025/spotify-wrapped-albany/" target="_blank" class="underline hover:bg-orange-400">Times Union</a>.</div>
+            </Card>
+
+            <Card title="College Return on Investments" img_path="college-roi.jpg" summary="I helped to translate analyses of the ROI for different colleges in California for stories in other states. This story was also published in the Times Union, the Houston Chronicle, San Antonio Express, and Austin American-Statesman." link="https://www.ctinsider.com/projects/news/education/connecticut-colleges-ranked-return-on-investment/" tools={['Hearst', 'Python', 'Pandas', 'React']}>
+                <div slot="summary" class="text-gray-700 text-sm mb-2">I helped to translate analyses of the ROI for different colleges in California for stories in other states. This story was also published in the <a href="https://www.timesunion.com/projects/2025/ny-colleges-return-investment/" target="_blank" class="underline hover:bg-orange-400">Times Union</a>, the <a href="https://www.houstonchronicle.com/projects/2025/colleges-return-on-investment/" target="_blank" class="underline hover:bg-orange-400">Houston Chronicle</a>, <a href="https://www.expressnews.com/projects/2025/colleges-return-on-investment/" target="_blank" class="underline hover:bg-orange-400">San Antonio Express</a>, and <a href="https://www.statesman.com/projects/2025/texas-a-m-ut-austin-roi-college-university-ranking/" target="_blank" class="underline hover:bg-orange-400">Austin American-Statesman</a>.</div>
+            </Card>
+
+            <Card title="Grocery Price Dashboard" img_path="grocery-dashboard.png" link="https://www.sfchronicle.com/projects/grocery-price-tracker/" tools={['Hearst', 'React', 'd3.js']}>
+                <div slot="summary" class="text-gray-700 text-sm mb-2">I helped to build a dashboard that tracks grocery prices in the city across time. This project was also published in the <a href="https://www.houstonchronicle.com/projects/grocery-price-tracker/" target="_blank" class="underline hover:bg-orange-400">Houston Chronicle</a>, <a href="https://www.expressnews.com/projects/grocery-price-tracker/" target="_blank" class="underline hover:bg-orange-400">San Antonio Express</a>, <a href="https://www.statesman.com/projects/texas-grocery-price-tracker/" target="_blank" class="underline hover:bg-orange-400">Austin American-Statesman</a>, <a href="https://www.ctinsider.com/projects/business/connecticut-grocery-price-tracker/" target="_blank" class="underline hover:bg-orange-400">CT Insider</a>, and <a href="https://www.timesunion.com/projects/albany-grocery-price-tracker/" target="_blank" class="underline hover:bg-orange-400">Times Union</a>.</div>
+            </Card>
+
+            <Card title="How Connectciut has changed" img_path="ct-landuse.jpg" link="https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/" summary="I helped to translate the analysis for a story on change in land use to other markets." tools={['Hearst', 'QGIS', 'MapLibre', 'Nearmap', 'Python']}/>
+
+            <Card title="California flood/tsunami map" img_path="california-flood.jpg" summary="I helped tweak the front end of the project to also display Tsunami data when relevant." link="https://www.sfchronicle.com/projects/flood-map-california-bay-area/" tools={['Hearst', 'React', 'MapLibre']}/>
 
             <Card title="Why do TikTokers talk differently?" img_path="tiktok-thumb.png" summary="I scraped and analysed more than 300 videos from TikTok to find the pattern." link="https://dlaiu.github.io/tiktok-accent/" tools={['TikTok Scraping', 'Audio analysis (Praat)', 'Svelte', 'Scrollytelling', 'D3.js', 'Huggingface', 'Pandas']}/>
 
