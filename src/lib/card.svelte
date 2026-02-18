@@ -26,7 +26,7 @@
          {#if tools.length > 0}
          <div class="flex flex-wrap gap-2 mt-4">
              {#each tools as tool}
-                 <span class="text-xs {tool === 'Hearst' ? 'bg-[#2d75b9] text-white' : 'bg-gray-200'} text-gray-700 px-2 py-1 rounded-full shadow-sm ">
+                 <span class="text-xs {tool === 'Hearst' ? 'bg-[#2d75b9] text-white' : tool === 'BBC' ? 'bg-black text-white' : tool === 'Mothership' ? 'bg-[#ED4545] text-white' : 'bg-gray-200'} text-gray-700 px-2 py-1 rounded-full shadow-sm ">
                      {tool}
                  </span>
              {/each}
