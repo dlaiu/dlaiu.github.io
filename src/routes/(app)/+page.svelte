@@ -177,6 +177,14 @@
       class="data-stories flex flex-col md:flex-row md:flex-wrap gap-5 mx-10 md:mx-0 md:pl-20"
     >
       <Card
+      title="Tiktok Wrapped"
+      img_path="tiktok-wrapped-thumb.jpg"
+      summary="I downloaded my Tiktok watch data, pulled the metadata, transcribed it, ran cluster analyses on the transcripts, titles, and hashtags, to find patterns in what I watched."
+      link="https://dlaiu.github.io/tiktok-wrapped/"
+      tools={["Svelte", "pandas", "EmbeddingEmma", "Whisper", "Python", "Cluster Analysis", "Claude Code"]}
+      />
+
+      <Card
         title="Spotify Wrapped"
         img_path="spotify-wrapped-2026.png"
         summary="I scraped Spotify's Wrapped data for 2022 and 2023 to find out how much it has changed and what it says about the music industry."
