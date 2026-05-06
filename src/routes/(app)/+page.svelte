@@ -179,10 +179,13 @@
       <Card
       title="Tiktok Wrapped"
       img_path="tiktok-wrapped-thumb.jpg"
-      summary="I downloaded my Tiktok watch data, pulled the metadata, transcribed it, ran cluster analyses on the transcripts, titles, and hashtags, to find patterns in what I watched."
       link="https://dlaiu.github.io/tiktok-wrapped/"
       tools={["Svelte", "pandas", "EmbeddingEmma", "Whisper", "Python", "Cluster Analysis", "Claude Code"]}
-      />
+      >
+<div slot="summary" class="text-gray-700 text-sm mb-2">
+I downloaded my Tiktok watch data, pulled the metadata, transcribed it, ran cluster analyses on the transcripts, titles, and hashtags, to find patterns in what I watched. Read more about the process <a href="https://github.com/dlaiu/tiktok-wrapped" target="_blank" class="underline hover:bg-orange-400">here.</a>
+</div>
+      </Card>
 
       <Card
         title="Spotify Wrapped"
@@ -286,7 +289,7 @@
       </Card>
 
       <Card
-        title="How Connectciut has changed"
+        title="How development reshaped Connecticut"
         img_path="ct-landuse.jpg"
         link="https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/"
         summary="I helped to translate the analysis for a story on change in land use to other markets."
