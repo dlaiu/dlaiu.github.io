@@ -1,0 +1,72 @@
+section,title,description,description_extended,img_path,link,tags,categories
+Selected Work,Why do TikTokers talk differently?,I scraped and analysed more than 300 videos from TikTok to characterise what the TikTok accent is.,"Role: Reporting, Data Collection, Analysis, Writing, Graphics Development
+
+This was my capstone project my Master's degree in Data Journalism at Columbia Journalism School. 
+
+The idea for this project came, as one does, while scrolling on TikTok. I noticed that many influencers, particularly influencers that did Amazon product reviews. Inspired by a visual story in The Pudding about national anthems, I wanted to explain what the accent was and why these creators were speaking that way.
+
+<h3>Data Analysis</h3>
+With the help of Professor Jonathan Soma, I scraped TikTok for its videos and metrics. I then used Parselmouth — a python implementation of the linguistic software Praat — to extract out the pitch values of every TikTok videos I was observing.
+
+Referencing an academic paper titled The use of high rise terminals in Southern Californian English (2014) by Amanda Ritchart and Amalia Arvanti, I then implemented in python a function to track “uptalk” within the pitch values. I then counted the number of instances of uptalk there were in one video and averaged the number of instances per 15 seconds as a metric of comparison across videos and genres of TikTok.
+
+When I plotted the density chart, I found that the median number of intonations from Amazon TikToks were visibly greater than that of other genres of TikTok. I validated this finding with a T-test in R.
+
+I also wanted to see if there was a correlation between this metric and the view counts of these videos. I ran a regression model but found that there was a significant relationship between the two metrics.
+
+<h3>Front End</h3>
+The goal of this project was to be able to create an interactive story. The project was built in Svelte and d3. Read the story <a href=""https://dlaiu.github.io/tiktok-accent/"" target=""_blank"">here.</a> And if you're curious about the code, you can find it <a href=""https://github.com/dlaiu/tiktok-accent"" target=""_blank"">here.</a>",tiktok-thumb.png,https://dlaiu.github.io/tiktok-accent/,TikTok Scraping; Python; Svelte; D3.js,
+Selected Work,How development reshaped Connecticut,I helped to translate the analysis for a story on change in land use to other markets.,"Role: data analysis, graphics development
+
+For this project, I translated what was originally done for the San Francisco Chronicle to other outlets within Hearst Newspapers. This was a collaborative effort with local reporters and I was responsible for the data analysis and the web development for this story.
+
+For the analysis, I used 2015 and 2025 data from the National Land Cover Database to identify areas that went through the most development. The inital analysis was done using QGIS.
+
+
+After identifying these areas, I pulled statellite images from Nearmap so that we can see more closely what the nature of the development was. Following that, these images were presented through a scrollytelling map in the story.
+
+Read more <a href=""https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/"" target=""_blank"">here.</a>
+
+This story was also published in the <a href=""https://www.houstonchronicle.com/projects/2026/houston-landscape-changes/"" target=""_blank"">Houston Chronicle</a>, <a href=""https://www.expressnews.com/projects/2026/san-antonio-development-landscape-change/"" target=""_blank"">the San Antonio Express</a>, and <a href=""https://www.statesman.com/projects/2026/austin-growth-before-after-photos-maps/"" target=""_blank"">the Austin American-Statesman.<a/>",ct-landuse.jpg,https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/,Hearst; QGIS; MapLibre; Python; React,
+Everything Else,TikTok Wrapped,"I downloaded my TikTok watch data, transcribed it, and ran cluster analyses on the transcripts to find patterns in what I watched.",,tiktok-wrapped-thumb.jpg,https://dlaiu.github.io/tiktok-wrapped/,Python; Svelte; Cluster Analysis; Whisper,Data; Personal Favs
+Everything Else,Grocery Price Dashboard,"I helped build a dashboard that tracks grocery prices across time, published across six Hearst markets. This piece earned an Award of
+Excellence from the Society of News Design in 2026. Role: graphics development.",,grocery-dashboard.png,https://www.sfchronicle.com/projects/grocery-price-tracker/,Hearst; React; d3.js,Data; Personal Favs
+Everything Else,Spotify Wrapped,"I presented the city's top tracks from Spotify in an interactive presentation. Role: design, graphics development",,spotify-wrapped-2026.png,https://www.sfchronicle.com/projects/2025/spotify-wrapped-san-francisco/,Hearst; React; d3.js; Figma; Adobe Illustrator,Data
+Selected Work,College Return on Investments,I helped translate analyses of the ROI for different colleges in California for stories in other states.,"Role: data analysis, graphics development
+
+This story was done using data from Georgetown University's Center on Education and the Workforce and the methodology from a story originally done by the San Francisco Chronicle. <
+
+The story was a collaboration between me and local reporters. For this project, I was responsible for the data analysis and the web development of the data visualizations for the piece. 
+
+Read more <a href=""https://www.ctinsider.com/projects/news/education/connecticut-colleges-ranked-return-on-investment/"" target=""_blank"">here.</a> This story was also published in <a href=""https://www.timesunion.com/projects/2025/ny-colleges-return-investment/"" target=""_blank"">the Times Union</a>, <a href=""https://www.houstonchronicle.com/projects/2025/colleges-return-on-investment/"" target=""_blank"">the Houston Chronicle</a>, <a href=""https://www.expressnews.com/projects/2025/colleges-return-on-investment/"" target=""_blank"">the San Antonio Express</a>, and <a href=""https://www.statesman.com/projects/2025/texas-a-m-ut-austin-roi-college-university-ranking/"" target=""_blank"">the Austin American-Statesman.</a>",college-roi.jpg,https://www.ctinsider.com/projects/news/education/connecticut-colleges-ranked-return-on-investment/,Hearst; Python; Pandas; React,Data
+Everything Else,California flood/tsunami map,I helped tweak the front end to also display tsunami data when relevant.,,california-flood.jpg,https://www.sfchronicle.com/projects/flood-map-california-bay-area/,Hearst; React; MapLibre,Data
+Everything Else,What does Bigfoot look like?,"I went through more than 4,000 reports of bigfoot sightings to learn more.",,bigfoot-banner.webp,https://dlaiu.github.io/bigfoot/,scrollytelling; Qualitative Analysis,Data
+Everything Else,The value of a game review,"IGN is famous for giving 7s. But is it actually true? I scraped about 13,000 of their reviews to find out.",,banner-photo.png,data-stories/ign-game-reviews,BeautifulSoup; Pandas; ai2html,Data; Personal Favs
+Everything Else,How John Oliver does good journalism while making you laugh,I broke down an episode of Last Week Tonight to argue why he's actually doing good journalism.,,john-oliver-thumb.png,https://dlaiu.github.io/john-oliver-narrative/,d3.js; Svelte,Data; Personal Favs
+Everything Else,"When was the best SNL era, objectively",I came up with a metric to end the decades-long debate once and for all.,,snl-cast-thumb.png,https://dlaiu.github.io/snl-dream-team,Playwright; Pandas; ggplot,Data
+Everything Else,Why do all malls in Singapore feel the same?,"If you've lived in Singapore, you know how important malls are. But do they all have to feel the same?",,mall-thumb.png,https://dlaiu.github.io/generic-malls-singapore/,Playwright; Pandas; fuzzywuzzy,Data
+Everything Else,Here's where every WiFi hotspot is in NYC,Visualising every NYC WiFi in the city and counting them in each neighborhood.,,wifi-thumb.png,https://dlaiu.github.io/nyc-wifi-neighborhoods/,Mapbox; Javascript,Data
+Everything Else,Here's how much your neighbours are selling their flat for,Public housing is the only thing Singaporeans my age ever talk about. Here's a handy tool to check how much they're being sold for.,,highest-hdb-price.png,https://dlaiu.github.io/latest-highest-hdb-resale-price/,APIs; Mapbox; geocoding,Data
+Selected Work,Who should pick up the bill for climate damage?,Many developing countries argue that the world's biggest polluters have not paid their fair share of climate finance.,"Role: reporting, data analysis & visualization, filming, writing, filming, video editing
+
+For this project, I was responsible for the reporting, the data analysis and visualization, the scripting, filming, and editing of the video.
+
+During my team at BBC Studios, I pitched a number of data related video explainers. This video was done as part of coverage for COP29 in 2024.
+
+The visualizations were done using Datawrapper, and then exported as svg to be superimposed on b-roll i filmed. I was experimenting alternative ways to visualize data in video. In other projects, I have done data visualization and animations in After Effects.
+
+Watch the video <a href=""https://www.bbc.com/reel/video/p0k4y1h6/who-should-pick-up-the-bill-for-climate-damage-"" target=""_blank"">here.</a>",climate-finance-yt-thumb.jpg,https://www.bbc.com/reel/video/p0k4y1h6/who-should-pick-up-the-bill-for-climate-damage-,BBC; Final Cut Pro; DataWrapper,Video
+Everything Else,The history of swing states in the US,Just seven states are expected to determine the 2024 US Presidential election. We explain why that matters.,,swing-states.jpeg,https://www.bbc.com/reel/video/p0jyrzsg/the-history-of-swing-states-in-the-us,BBC; After Effects; Illustrator,Video
+Everything Else,Why 'snowy' New York winters are a bit of a myth,"New York City winters are often depicted as snowy wonderlands. Lately, that image doesn't seem accurate.",,new-york-snow.jpeg,https://www.bbc.com/reel/video/p0kpvtc0/why-snowy-new-york-winters-are-a-bit-of-a-myth,BBC; After Effects,Video; Personal Favs
+Everything Else,Just how dangerous is space debris?,"In the past decade, the dramatic surge in satellite launches has left space cluttered with junk.",,space-junk-thumb.jpeg,https://www.bbc.com/reel/video/p0l7gtft/watch,BBC; After Effects,Video; Personal Favs
+Everything Else,Why the Russia-Ukraine war isn't ending soon,Is the war even near a conclusion? How do wars even end? We speak to an expert to find out.,,ukraine-thumb.png,https://www.youtube.com/watch?v=MMdG73HUYpU,Mothership; Premiere Pro,Video
+Everything Else,Straight to the Point with George Yeo,I sat down with the former Minister for Foreign Affairs to talk about the Singaporean identity.,,george-yeo-thumb.jpg,https://www.youtube.com/watch?v=UibCFxEfAwQ,Mothership; Presenting,Video
+Everything Else,Why is TikTok so addictive?,STOP. Are you scrolling on social media right now and can't stop? It's not entirely your fault.,,WIITY1.jpg,https://www.youtube.com/watch?v=zKVdTcY9Yxw,Mothership; Presenting,Video; Personal Favs
+Everything Else,How does one become the Prime Minister of Singapore?,We look at how past Prime Ministers were chosen.,,PM_thumb.png,https://www.youtube.com/watch?v=4ii5AILzsEw,Mothership; Scripting,Video
+Everything Else,Is Singapore becoming too expensive to live in?,You've probably noticed that almost everything seems to be getting more expensive lately. Why?,,inflation-thumb.jpg,https://www.youtube.com/watch?v=4ii5AILzsEw,Mothership; Scripting,Video; Personal Favs
+Everything Else,Why do Muslim women choose to wear the tudung?,We talk to 3 Muslim people about why they choose to wear the headscarf.,,muis-tudung-thumb-3.png,https://www.youtube.com/watch?v=l_MGGk1-ab4,Mothership; Filming,Video
+Everything Else,Why Singapore is not ready for an endemic Covid-19,"At the cusp of opening up, Singaporeans were still arguing that we shouldn't. Why?",,endemic-thumb-2.png,https://www.youtube.com/watch?v=AC709_eYJmM,Mothership; Scripting,Video
+Everything Else,3 first time S'pore Olympians on why Tokyo Games might also be their last,"Singapore's Olympians, unfiltered.",,olympians-cover.png,https://mothership.sg/2021/08/singapore-first-time-olympians-retiring/,Mothership,Writing; Personal Favs
+Everything Else,Cancelling & cancel culture: Are they relevant to us in S'pore & why should we care?,"We look into their history, criticisms, and why understanding them concerns us.",,cancel-culture-explained-2.png,https://mothership.sg/2020/08/cancel-culture-explainer/,Mothership,Writing
+Everything Else,Minimum wage vs Progressive Wage Model: What's the difference?,We look at the key differences between the Progressive Wage Model and the minimum wage.,,minwage-cover.png,https://mothership.sg/2020/07/minimum-wage-progressive-wage-model-differences/,Mothership,Writing
+Everything Else,Key questions asked by MPs on police access to TraceTogether data,"Questions include the longevity of TraceTogether data, and instances where the data have been used.",,TT-cover.png,https://mothership.sg/2021/01/questions-trace-together-data/,Mothership,Writing
