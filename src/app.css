@@ -1,3 +1,27 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --color-bg: #f2f0ef;
+    --color-card-bg: #f3f1f1;
+    --color-border: #66615e;
+    --color-text: #000000;
+    --color-muted: #66615e;
+    --color-tag-hearst: #d1e3ee;
+    --font-serif: 'Libertinus Serif', serif;
+    --font-sans: 'Noto Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-serif);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+a {
+    color: inherit;
+}

@@ -20,6 +20,7 @@
 		"eslint": "^8.56.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"gh-pages": "^6.1.1",
+		"less": "^4.6.4",
 		"postcss": "^8.4.33",
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.4.1",
@@ -27,6 +28,8 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@gradio/client": "^2.2.1",
+		"d3": "^7.9.0",
 		"layercake": "^8.0.2",
 		"scrolly-video": "^0.0.19"
 	}

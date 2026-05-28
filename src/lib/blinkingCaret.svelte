@@ -1,17 +1,18 @@
-<script>
-    let blink = true;
-</script>
-
 <style>
     @keyframes blink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
     }
 
-    .animate-blink {
+    .caret {
+        display: inline-block;
+        width: 4px;
+        height: 4.5rem;
+        background-color: #000;
         animation: blink 1s step-end infinite;
+        vertical-align: middle;
+        margin-left: 4px;
     }
 </style>
 
-<span class="bg-black w-1 h-auto md:h-24 {blink ? 'animate-blink' : ''}"></span>
-
+<span class="caret"></span>
