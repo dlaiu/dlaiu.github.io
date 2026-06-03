@@ -30,7 +30,7 @@
 <div class="card" class:expanded={isExpanded} class:hidden={isHidden} class:text-first={isExpanded && isBottomCard} on:click={handleClick}>
     <div class:card-row={isExpanded} class:img-right={isExpanded && isRightCard}>
         <div class="card-image">
-            <img src={img_path} alt="thumbnail for {title}" />
+            <img src={img_path} alt="thumbnail for {title}" style={img_path.includes('neighborhood-change.gif') ? 'object-position: 50% 30% !important' : ''} />
         </div>
         <div class="card-body">
             <h2 class="card-title" class:expanded={isExpanded}>{title}</h2>
@@ -175,6 +175,10 @@
 
     .summary-expanded {
         margin: 1rem;
+
+        :global(a:hover) {
+            background-color: var(--color-tag-hearst);
+        }
     }
 
     .card-tags {

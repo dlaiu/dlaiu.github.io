@@ -74,11 +74,15 @@
                 {#if activeStep >= 2 && activeStep <= 3}
                     <!-- TODO: step 3 left media -->
                     <!-- <div class="placeholder placeholder-tall">[ step 3 left ]</div> -->
-                     <img src="/climate-finance-final.gif" alt="climate finance explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                     <a href="https://www.bbc.com/reel/video/p0k4y1h6/who-should-pick-up-the-bill-for-climate-damage-" target="_blank">
+                         <img src="/climate-finance-final.gif" alt="climate finance explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                     </a>
                 {:else if activeStep >= 7 && activeStep <= 8}
                     <!-- TODO: step 7 left media -->
                     <!-- <div class="placeholder placeholder-tall">[ step 7 left ]</div> -->
-                        <img src="/one-take.gif" alt="one take gif" style="width:75%; border:1px solid var(--color-border)" />
+                        <a href="https://www.instagram.com/reels/CqjtRoKvwQt/" target="_blank">
+                            <img src="/one-take.gif" alt="one take gif" style="width:75%; border:1px solid var(--color-border)" />
+                        </a>
                 {/if}
             </div>
         </div>
@@ -86,7 +90,7 @@
         <!-- Scrolling steps -->
         <div class="steps" bind:this={stepsEl}>
                 <div class="step" data-step="0">
-                    <p>Recently, at Hearst Newspapers, I built a dashboard that lets readers and reporters compare how six variables from the American Community Survey have changed over the last 15 years in different neighborhoods.</p>
+                    <p>Recently, at Hearst Newspapers, I built a <a href="https://www.houstonchronicle.com/projects/2026/census-neighborhood-search/" target="_blank">dashboard</a> that lets readers and reporters compare how six variables from the American Community Survey have changed over the last 15 years in different neighborhoods.</p>
                     <p>I generally also enjoy pursuing quirky stories.</p>
                 </div>
 
@@ -147,11 +151,15 @@
                 {#if activeStep >= 2 && activeStep <= 3}
                     <!-- TODO: step 3 right media -->
                     <!-- <div class="placeholder placeholder-tall">[ step 3 right ]</div> -->
-                     <img src="/space-junk.gif" alt="space debris explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                     <a href="https://www.bbc.com/reel/video/p0l7gtft/watch" target="_blank">
+                         <img src="/space-junk.gif" alt="space debris explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                     </a>
                 {:else if activeStep >= 7 && activeStep <= 8}
                     <!-- TODO: step 7 right media -->
                     <!-- <div class="placeholder placeholder-tall">[ step 7 right ]</div> -->
-                        <img src="/WIITY.gif" alt="WIITY explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                        <a href="https://www.youtube.com/watch?v=zKVdTcY9Yxw" target="_blank">
+                            <img src="/WIITY.gif" alt="WIITY explainer gif" style="width:100%; border:1px solid var(--color-border)" />
+                        </a>
                 {/if}
             </div>
         </div>
@@ -170,6 +178,10 @@
         max-width: 1280px;
         margin: 0 auto;
         // padding: 2rem 2rem 6rem;
+
+        a:hover {
+            background-color: var(--color-tag-hearst);
+        }
     }
 
     .back-link {

@@ -8,7 +8,7 @@
     export let data;
     $: ({ listItems, selectedItems } = data);
 
-    const filters = ["All", "Personal Favs", "Data", "Video", "Writing"];
+    const filters = ["All", "Personal Favs", "Data", "Video", "Writing", "Presentations"];
     let activeFilter = "Personal Favs";
 
     $: filtered = activeFilter && activeFilter !== "All"
@@ -51,7 +51,7 @@
                 I'm a multimedia journalist.
                 I'm currently at the <a href="https://www.sfchronicle.com/projects/about-the-devhub-hearst-newspapers/" target="_blank">DevHub at Hearst Newspapers</a> building graphics and analysing data.
             </p>
-            <p class="bio">Read my <button class="essay-link-inline" on:click={toggleEssay}>cover essay here.</button></p>
+            <p class="bio">Read more <button class="essay-link-inline" on:click={toggleEssay}>about me here.</button></p>
         </div>
     </div>
     <div class="hero-row contacts-row">
@@ -89,7 +89,7 @@
 
     <div class="essay-title">
         <button class="essay-link" on:click={() => showEssay = !showEssay}>
-            {showEssay ? '' : 'Cover Essay'}
+            {showEssay ? '' : 'Read more about me.'}
         </button>
     </div>
 
@@ -282,7 +282,7 @@
         text-decoration: underline;
         text-underline-offset: 3px;
 
-        &:hover { color: var(--color-text); }
+        &:hover { background-color: var(--color-tag-hearst); }
     }
 
     .essay-link {
@@ -297,7 +297,7 @@
         text-decoration: underline;
         text-underline-offset: 3px;
 
-        &:hover { color: var(--color-text); }
+        &:hover { background-color: var(--color-tag-hearst); }
     }
 
     .contacts img {
