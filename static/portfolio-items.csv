@@ -38,13 +38,17 @@ After identifying these areas, I pulled statellite images from Nearmap so that w
 Read more <a href=""https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/"" target=""_blank"">here.</a>
 
 This story was also published in the <a href=""https://www.houstonchronicle.com/projects/2026/houston-landscape-changes/"" target=""_blank"">Houston Chronicle</a>, <a href=""https://www.expressnews.com/projects/2026/san-antonio-development-landscape-change/"" target=""_blank"">the San Antonio Express</a>, and <a href=""https://www.statesman.com/projects/2026/austin-growth-before-after-photos-maps/"" target=""_blank"">the Austin American-Statesman.<a/>",ct-landuse.jpg,https://www.ctinsider.com/projects/2025/connecticut-development-before-after-images/,Hearst; QGIS; MapLibre; Python; React,
+Everything Else,S.F. public data was a niche interest. That was before ‘vibe-coding’,Requests to datasets from San Francisco Open Data have skyrocketed since the introduction of AI coding assistants.,,vibecoding.webp,https://www.sfchronicle.com/sf/article/sf-public-data-coding-agents-22299636.php,Python; Datawrapper,Data
+Everything Else,Bay Area companies want employees back in the office. Remote work isn’t budging,"The share of days worked from home has remained relatively stable in the past year, despite Bay Area companies implementing return-to-office policies.",,wfh.webp,https://www.sfchronicle.com/bayarea/article/remote-work-stabilizing-22308152.php,Python; Datawrapper,Data
+Everything Else,S.F. police are rapidly expanding drone use. Critics warn of surveillance risk,The city’s police have already deployed drones more drones in 2026 than all of 2025.,,drones.webp,https://www.sfchronicle.com/crime/article/san-francisco-drones-22325281.php,Python; Datawrapper,Data
+Everything Else,Tiktok Universe,I turned my TikTok watch history into a galaxy you can explore.,,tiktok-universe.png,https://dlaiu.github.io/tiktok-universe/,Python; Svelte; Cluster Analysis; Whisper; Claude Code,Data; Personal Favs
 Everything Else,TikTok Wrapped,"I downloaded my TikTok watch data, transcribed it, and ran cluster analyses on the transcripts to find patterns in what I watched.",,tiktok-wrapped-thumb.jpg,https://dlaiu.github.io/tiktok-wrapped/,Python; Svelte; Cluster Analysis; Whisper,Data; Personal Favs
 Everything Else,Grocery Price Dashboard,"I helped build a dashboard that tracks grocery prices across time, published across six Hearst markets. This piece earned an Award of
 Excellence from the Society of News Design in 2026. Role: graphics development.",,grocery-dashboard.png,https://www.sfchronicle.com/projects/grocery-price-tracker/,Hearst; React; d3.js,Data; Personal Favs
 Everything Else,Spotify Wrapped,"I presented the city's top tracks from Spotify in an interactive presentation. Role: design, graphics development",,spotify-wrapped-2026.png,https://www.sfchronicle.com/projects/2025/spotify-wrapped-san-francisco/,Hearst; React; d3.js; Figma; Adobe Illustrator,Data
 Everything Else,College Return on Investments,I helped translate analyses of the ROI for different colleges in California for stories in other states.,"Role: data analysis, graphics development
 
-This story was done using data from Georgetown University's Center on Education and the Workforce and the methodology from a story originally done by the San Francisco Chronicle. <
+This story was done using data from Georgetown University's Center on Education and the Workforce and the methodology from a story originally done by the San Francisco Chronicle. 
 
 The story was a collaboration between me and local reporters. For this project, I was responsible for the data analysis and the web development of the data visualizations for the piece. 
 

@@ -9,7 +9,7 @@
     $: ({ listItems, selectedItems } = data);
 
     const filters = ["All", "Personal Favs", "Data", "Video", "Writing", "Presentations"];
-    let activeFilter = "Personal Favs";
+    let activeFilter = "Data";
 
     $: filtered = activeFilter && activeFilter !== "All"
         ? listItems.filter(item => item.categories.includes(activeFilter))
